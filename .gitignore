@@ -1,0 +1,55 @@
+# Criado por: [GUilherme Neto] [guilhermeNetoGit]
+# Data: 18/01/2026
+
+# COMPILADOS JAVA (NUNCA COMMITAR!)
+*.class
+
+# ECLIPSE
+bin/
+.metadata/
+.recommenders/
+*.launch
+.factorypath
+*.prefs
+
+# VSCODE
+.vscode/
+
+# ARQUIVOS DE PROJETO (versionar para facilitar)
+.classpath
+.project
+.settings/
+
+# SISTEMA OPERACIONAL
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# TEMPORÁRIOS E LOGS
+*.tmp
+*.bak
+*.swp
+*~
+*.log
+logs/
+
+# BUILD TOOLS (futuro)
+target/
+build/
+out/
+
+# PROPRIEDADES DE DB'S
+db.properties
+
+# SEGURANÇA
+.env
+.env.local
+.env.*.local
+config.properties
+auth.json
+
+# MAVEN / GRADLE
+.mvn/
+.gradle/
+pom.xml.tag
+pom.xml.releaseBackup
